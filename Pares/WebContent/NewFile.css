@@ -1,1 +1,14 @@
 @charset "UTF-8";
+
+header {
+	background-color: orange;
+	font-size: 200%;
+	position: relative;
+	text-align: center;
+	color: white;
+	font-family: 'Sriracha', cursive;
+	font-weight: bold;
+}
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
