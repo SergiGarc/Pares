@@ -2,13 +2,143 @@
 
 header {
 	background-color: orange;
-	font-size: 200%;
+	font-size: 230%;
 	position: relative;
 	text-align: center;
 	color: white;
 	font-family: 'Sriracha', cursive;
 	font-weight: bold;
+	height: 90px;
+	padding-top: 30px;
 }
 
 @import
 	url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+.nav {
+	border: solid 1px black;
+	margin: 3px;
+}
+
+nav {
+	text-indent: 25px;
+	background-color: lightblue;
+	position: relative;
+	display: inline-block;
+	box-sizing: content-box;
+	width: 1905px;
+	height: 35px;
+}
+
+.nav:visited {
+	color: purple;
+}
+
+ul {
+	background-color: #ffdc87;
+	margin-left: 35px;
+	margin-right: 10px;
+}
+
+.blu {
+	height: 20px;
+	background-color: blue;
+	margin-top: 25px;
+}
+
+.bl {
+	height: 20px;
+	background-color: blue;
+}
+
+.ret {
+	height: 20px;
+	background-color: red;
+	bottom: -25px;
+	position: relative;
+	width: 1900px;
+	left:-210px;
+}
+
+.reb {
+	height: 20px;
+	background-color: red;
+	position: relative;
+}
+
+.azul {
+	color: blue;
+	position:relative;
+	box-sizing: content-box;
+	display:block;
+}
+
+.azult {
+	color: blue;
+	position:relative;
+	box-sizing: content-box;
+	display:block;
+}
+.rojo {
+	color: red;
+	bottom: -10px;
+	position: relative;
+}
+
+.red {
+	margin-top: 25px;
+	background-color: #cef4ff;
+	height: 180px;
+}
+
+footer {
+	background-color: #ffa473;
+	text-align: center;
+	height: 80px;
+}
+
+.pie {
+	top: 20px;
+	position: relative;
+	color: lightgrey;
+}
+
+.foot {
+	top: 10px;
+	position: relative;
+}
+
+.amarillo {
+	background-color: yellow;
+}
+
+.tachado {
+	text-decoration: line-through;
+}
+
+.productos {
+	background-color: orange;
+	margin-top: -19px;
+	margin-bottom: -16px;
+	padding-bottom: 2px;
+}
+
+.steve{
+	height: 11%;
+	width: 11%;
+	position:relative;
+	box-sizing: content-box;
+	display:block;
+	float: left;
+	top:-40px;
+}
+
+.mac{
+	height: 10%;
+	width: 10%;
+	position:relative;
+	box-sizing: content-box;
+	display:block;
+	float: right;
+	top:-25px;
+}
